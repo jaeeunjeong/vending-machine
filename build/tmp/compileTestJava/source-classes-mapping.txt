@@ -1,0 +1,2 @@
+vendingmachine/VendingMachineTest.java
+ vendingmachine.VendingMachineTest

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vendingmachine.VendingMachineTest" tests="4" skipped="1" failures="0" errors="0" timestamp="2021-05-11T07:24:34" hostname="DESKTOP-8H7O9QE" time="0.561">
+  <properties/>
+  <testcase name="_1000원이_들어있는_자판기에_500원을_넣으면_1500원이_들었는지_알_수_있다()" classname="vendingmachine.VendingMachineTest" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase name="자판기에_1000원을_넣으면_1000원이_들었는지_알_수_있다()" classname="vendingmachine.VendingMachineTest" time="0.535"/>
+  <testcase name="자판기에_500원을_넣으면_500원이_들었는지_알_수_있다()" classname="vendingmachine.VendingMachineTest" time="0.003"/>
+  <testcase name="자판기_생성()" classname="vendingmachine.VendingMachineTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'org.toyproject'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.1'
+    testCompile 'org.junit.jupiter:junit-jupiter-params'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    testImplementation 'org.assertj:assertj-core:3.19.0'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+compileJava {
+    sourceCompatibility = "1.7"
+    targetCompatibility = "1.7"
+}
+compileTestJava {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+}
